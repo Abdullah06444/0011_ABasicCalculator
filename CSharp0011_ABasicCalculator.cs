@@ -7,6 +7,7 @@ namespace CSharp0011_ABasicCalculator
         static void Main(string[] args)
         {
 			bool turnOnOff = true;
+			
 			do
 			{
 
@@ -73,6 +74,7 @@ namespace CSharp0011_ABasicCalculator
 					default:
 						Console.WriteLine("Invalid operation\n\n");
 						break;
+
 				}
 
 			} while (turnOnOff);
